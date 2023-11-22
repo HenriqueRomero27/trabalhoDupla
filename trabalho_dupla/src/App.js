@@ -1,4 +1,4 @@
-import Votacao from "./Enquete/Votacao";
+import Votacao from "./components/Enquete/Votacao";
 import Conversor from "./components/Conversor/Conversor";
 import Counter from "./components/Counter/Counter";
 import Media from "./components/Media/Media";
