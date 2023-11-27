@@ -1,0 +1,31 @@
+.contentConversor {
+    padding: 2%;
+    background-color: rgb(113, 192, 113);
+    color: #fff;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.contentConversor .input label {
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.contentConversor .input input {
+    border: 0;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.contentConversor button {
+    border: 0;
+    border-radius: 8px;
+    padding: 12px;
+    color: #fff;
+    background-color: rgb(177, 56, 56);
+}
+
+.contentConversor p {
+    font-weight: 600;
+}

@@ -1,0 +1,26 @@
+.contentVotacao {
+    padding: 2%;
+    background-color: rgb(113, 114, 192);
+    color: #fff;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.contentVotacao table {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: center;
+}
+
+.contentVotacao .questions button {
+    border: 0;
+    border-radius: 8px;
+    padding: 12px;
+    color: #fff;
+    background-color: rgb(186, 125, 192);
+    margin-left: 12px;
+}

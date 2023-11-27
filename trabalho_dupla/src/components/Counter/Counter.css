@@ -1,0 +1,16 @@
+.contentCounter {
+    padding: 2%;
+    background-color: rgb(192, 178, 113);
+    color: #fff;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.contentCounter button {
+    margin-right: 10px;
+    border: 0;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+}

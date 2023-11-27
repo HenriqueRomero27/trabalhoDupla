@@ -20,10 +20,17 @@ function Temperatura() {
 
     return (
         <div className="contentTemperatura">
-            <input value={celsius} placeholder="Digite quantos graus celsius você deseja transformar em Fahrenheits" onChange={(e) => setCelsius(e.target.value)}  />
-            <button onClick={contaCelsiusToFahr}>Calcular Celsius to Fahr</button>
-            <input value={fahr} placeholder="Digite quantos graus Fahrenheits você deseja transformar em celsius" onChange={(e) => setFahr(e.target.value)}  />
-            <button onClick={conatFahrToCelsius}>Calcular Fahr To Celsius</button>
+            <h2>Temperatura</h2>
+            <div className="celsiusToFahr">
+                <label for="celsiusToFahr">Digite quantos graus celsius você deseja transformar em Fahrenheits:</label>
+                <input id="celsiusToFahr" value={celsius} placeholder="Digite quantos graus celsius você deseja transformar em Fahrenheits" onChange={(e) => setCelsius(e.target.value)}  />
+                <button onClick={contaCelsiusToFahr}>Calcular Celsius to Fahr</button>
+            </div>
+            <div className="fahrToCelsius">
+                <label for="fahrToCelsius">Digite quantos graus Fahrenheits você deseja transformar em celsius:</label>
+                <input id="fahrToCelsius" value={fahr} placeholder="Digite quantos graus Fahrenheits você deseja transformar em celsius" onChange={(e) => setFahr(e.target.value)}  />
+                <button onClick={conatFahrToCelsius}>Calcular Fahr To Celsius</button>
+            </div>
         </div>
     )
 

@@ -1,0 +1,37 @@
+.contentTemperatura {
+    padding: 2%;
+    background-color: rgb(192, 113, 113);
+    color: #fff;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.contentTemperatura input {
+    border: 0;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.contentTemperatura button {
+    border: 0;
+    border-radius: 8px;
+    padding: 12px;
+    color: #000
+    ;
+    background-color: rgb(210, 211, 133);
+    font-weight: bold;
+}
+
+.contentTemperatura .celsiusToFahr {
+    margin-bottom: 10px;
+}
+
+.contentTemperatura input {
+    margin-right: 10px;
+}
+
+.contentTemperatura label {
+    font-weight: bold;
+    margin-right: 15px;
+}
